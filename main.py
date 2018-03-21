@@ -18,7 +18,6 @@ class InstagramTest(unittest.TestCase):
                         'appActivity': 'com.instagram.android.activity.MainTabActivity', 'autoGrantPermissions': 'true'}
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_capabilities)
         self.driver.implicitly_wait(10)
-        self.timeout = 30
 
     def test_automation(self):
 
