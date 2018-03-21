@@ -39,7 +39,6 @@ class InstagramTest(unittest.TestCase):
 
         log_out = options_page.OptionsPage(self.driver)
         log_out.do_logout()
-        sleep(3)
 
     def tearDown(self):
         self.driver.quit()
